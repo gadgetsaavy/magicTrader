@@ -1,6 +1,6 @@
 @echo off
 REM Batch file to sync and push to the remote repository
-
+git push --set-upstream origin main
 REM Set the default commit message (you can customize this)
 SET COMMIT_MESSAGE="Auto-sync commit"
 
