@@ -4,7 +4,7 @@ git init
 git remote add origin https://github.com/gadgetsaavy/Alpha-Contract.git
 git add .
 
-
+git pull
 git commit -m "Initial commit - Creating Directory Structure."
 
 git branch -M main
