@@ -1,0 +1,18 @@
+{
+    "name": "flashbots-arbitrage-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node bot/arbitrageBot.js",
+        "deploy": "npx hardhat run scripts/deploy.js",
+        "verify": "npx hardhat run scripts/verify.js"
+    },
+    "dependencies": {
+        "@ethersproject/flashbots": "^0.4.0",
+        "ethers": "^5.7.2",
+        "dotenv": "^16.0.3",
+        "hardhat": "^2.12.6",
+        "@nomiclabs/hardhat-etherscan": "^3.0.0"
+    }
+}
